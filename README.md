@@ -1,24 +1,5 @@
-# README
+# SCAFFOLDS E OUTROS COMANDOS USADOS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails g scaffold Gastos dia_registro:integer mes_regsitro:integer ano_registro:integer hora:integer min:integer descricao valor:float forma_pgto
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: finapp_rb_production
+  database: finapp_rb
   username: finapp_rb
   password: <%= ENV["FINAPP_RB_DATABASE_PASSWORD"] %>
